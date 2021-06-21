@@ -1,0 +1,10 @@
+.footer-flex{
+    background-color: transparent;
+    text-align: right;
+    font-size: 14px;
+    color: darkolivegreen;
+}
+.footer-flex a{
+    margin-left: 10px;
+    text-decoration: underline;
+}
