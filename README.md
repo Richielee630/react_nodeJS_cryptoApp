@@ -17,7 +17,7 @@
 * run `net start mysql` in CMD to initial local mySQL server, your username and password should be all "root" by defult
 * install Navicat Premium database GUI (you can use the installation package I provided in this git repo)
 * open Navicat and create a new mySQL connection, use "root" for both username and password
-* right click the mySQL connection you just create, create a new mySQL databass, name is "btb" and chose "utf8 -- UTF8 Unicode" for Character encoding
+* right click the mySQL connection you just create, create a new mySQL databass, name it "btb" and chose "utf8 -- UTF8 Unicode" for Character encoding
 * now right click the btb database, and "run SQL file", you can find the SQL configuration file "btb.sql" in this repo
 * after import the database, right click database and refresh it, then you can view them under the "list"
 
