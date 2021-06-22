@@ -1,5 +1,5 @@
 # react_nodeJS_cryptoApp
-## you can find the code under **master** branch
+### you can find the code under **master** branch
 ## frontend installation guide (Windows):
 * save the code to you local storage
 * open '...\react_frontend' directory in CMD
