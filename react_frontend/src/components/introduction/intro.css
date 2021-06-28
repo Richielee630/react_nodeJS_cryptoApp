@@ -1,0 +1,29 @@
+.personal-box{
+    width: 1000px;
+    margin: 10% auto;
+    margin-top: 90px;
+}
+.personal-title{
+    margin-bottom: 50px;
+}
+
+.personal-select-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    height: 50px;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.personal-left-btn, .personal-right-btn{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.personal-tip{
+    font-size: 20px;
+    font-weight: 600;
+}

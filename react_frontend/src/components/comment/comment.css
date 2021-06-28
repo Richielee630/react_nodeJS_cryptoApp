@@ -1,0 +1,91 @@
+.comment-box{
+    background: linear-gradient(to bottom, rgb(190, 227, 248),rgb(236, 246, 250));
+    height: 650px;
+    width: 360px;
+    color: #000000,#999999;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #DAE1E6;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px gray;
+}
+
+.comment-title{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 20px;
+    width: 295px;
+    border-bottom:1px solid gray;
+}
+
+.comment-content-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.comment-content{
+    font-size: 20px;
+    font-weight: 900;
+    padding: 20px;
+    margin: -18px 20px 20px 20px;
+    width: 295px;
+    border-top:1px solid gray;
+    display: flex;
+    flex-direction: row;
+}
+
+.mycomment{
+    margin-left: 10px;
+}
+
+.mycomment-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 235px;
+}
+
+.mycomment-time div:nth-child(1){
+    font-size: 15px;
+}
+.mycomment-time div:nth-child(2){
+    font-size: 15px;
+    color:rgb(192, 190, 190);
+}
+
+.mycomment-title{
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 10px;
+}
+.mycomment-my{
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.sendMsg{  /*输入框*/
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.mylast{
+    position: absolute;
+    bottom: 0;
+}
+
+.send-btn{
+    margin-left:85px;
+    top: -40px;
+    width: 100px;
+}
+
+.b-box{  /*滚动窗口*/
+    height: 498px;
+    overflow-y: scroll;
+}

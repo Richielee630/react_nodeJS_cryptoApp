@@ -1,0 +1,13 @@
+.mycomment-box{
+    background-color: rgb(201, 233, 247);
+    border-radius: 5px;
+    width: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.n-mycomment-title{
+    color: rgb(189, 187, 187);
+    margin-bottom: 10px;
+}
