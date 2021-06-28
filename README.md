@@ -13,8 +13,8 @@
 * run `node app.js` to start the backend
 
 ## database intallation guide (Windows):
-* install [mySQL](https://dev.mysql.com/doc/mysql-installation-excerpt/5.7/en/) enviroment
-* run `net start mysql` in CMD to initial local mySQL server, your username and password should be all "root" by defult
+* install [mySQL](https://dev.mysql.com/downloads/file/?id=502540) enviroment
+* run `net start mysql` in CMD to initial local mySQL server, log in to local mySQL server by `mysql -u root -p`, your username and password should be all "root" as you configured in mysql installation
 * install Navicat Premium database GUI (you can use the installation package I provided in this git repo)
 * open Navicat and create a new mySQL connection, use "root" for both username and password
 * right click the mySQL connection you just create, create a new mySQL databass, name it "btb" and chose "utf8 -- UTF8 Unicode" for Character encoding
